@@ -1,0 +1,34 @@
+﻿<Window x:Class="freeWPFtime.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="بازی حدس اعداد" Height="350" Width="500"
+        Background="#f0f0f0">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="97*"/>
+            <ColumnDefinition Width="28*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <TextBlock Name="InstructionText" Text="یک عدد بین ۱ تا ۱۰۰ حدس بزنید:" 
+                   FontSize="22" Foreground="#2c3e50" HorizontalAlignment="Left" 
+                   Margin="114,10,0,10" FontWeight="Bold"/>
+        <TextBox Name="GuessInput" Width="200" Height="35" HorizontalAlignment="Left" 
+                 VerticalAlignment="Top" Margin="150,83,0,0" FontSize="18" 
+                 BorderBrush="#3498db" BorderThickness="2" Padding="5" Grid.Row="1" />
+        <Button x:Name="send_btn" Content="ارسال" Width="140" Height="45" HorizontalAlignment="Left" 
+                VerticalAlignment="Top" Margin="180,172,0,0" 
+                Background="#3498db" Foreground="White" FontSize="18" Grid.Row="1" BorderBrush="Black" FontWeight="Bold" Click="Button_Click" 
+  />
+        <TextBlock Name="ResultText" Grid.Row="2" FontSize="18" Foreground="#2980b9" 
+                   HorizontalAlignment="Left" Margin="250,10,0,10"/>
+        <TextBlock x:Name="test" HorizontalAlignment="Left" Margin="19,101,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="1"/>
+        <Button x:Name="guide" Content="راهنما" HorizontalAlignment="Left" Margin="49,0,0,0" VerticalAlignment="Center" Height="31" Width="53" Grid.Column="1" Click="Button_Click_1" Background="#FF2B9500" Foreground="White" FontSize="14" FontWeight="Bold"/>
+        <TextBlock x:Name="guess_txt" HorizontalAlignment="Left" Margin="175,10,0,0" TextWrapping="Wrap" Text="تعداد حدس های باقی مانده" VerticalAlignment="Top" FontSize="18" Grid.Row="1"/>
+        <TextBlock x:Name="countGuess_txt" HorizontalAlignment="Left" Margin="114,14,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Text="3"/>
+    </Grid>
+</Window>
+
