@@ -3,6 +3,8 @@
 ## Introduction
 This is a simple number guessing game created using C# and WPF. The game allows users to guess a number and provides feedback whether the guessed number is too high, too low, or correct.
 
+![Thumbnail](https://s8.uupload.ir/files/untitled-1_q3ce.jpg)
+
 ## Installation
 1. Clone the repository:
     ```bash
@@ -22,3 +24,6 @@ Feel free to open issues or submit pull requests if you have any suggestions or 
 
 ## License
 This project is licensed under the MIT License.
+
+## YouTube Channel
+Check out my YouTube channel for more tutorials and projects: [Freetime Programmer](https://www.youtube.com/@Freetime_Programmer)
