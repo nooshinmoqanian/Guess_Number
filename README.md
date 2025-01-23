@@ -8,7 +8,7 @@ This is a simple number guessing game created using C# and WPF. The game allows 
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/username/number-guessing-game.git
+    git clone git@github.com:nooshinmoqanian/Guess_Number.git
     ```
 2. Open the project in Visual Studio.
 3. Build the solution.
